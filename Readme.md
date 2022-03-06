@@ -7,7 +7,7 @@ Repository ini berisikan Latihan 4 pada mata kuliah Desain Pemrograman Berorient
 Modul dapat ditemukan di [Modul 4 - Multiple & Hierarchical Inheritance](https://docs.google.com/document/d/1zSLOCPvmSSnlj8vAcLW6R4KRVh9lF7K2SYfrjp04Wqc/edit#)
 
 ## Design
-![Design](/image/design.png)
+<p align ="center"><img src="/image/design.png"/></p>
 `Ship` dam `Airplane` merupakan `Vehicle` sehingga class `Vehicle` dijadikan parent dari class `Ship` dan juga `Airplane`. Disetiap kendaraan tentunya ada pengemudi, tapi disini saya menempatkan Pengemudi di `Ship` dan `Airplane` dan tidak di `Vehicle` karena beberapa kendaraan membutuhkan jumlah pengemudi yang berbeda dan juga di setiap kendaraan pengemudi memiliki nama berbeda, misalnya pengemudi `Ship` disebut Nahkoda sedangkan pengemudi `Airplane` disebut Pilot. `Driver` merupakan `Person` dan juga `Job` sehingga class `Person` dan `Job` dijadikan parent dari class `Driver`. 
 
 ## Screenshots Program
